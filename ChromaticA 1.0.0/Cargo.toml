@@ -1,0 +1,13 @@
+[package]
+name = "chromatica"
+version = "0.1.0"
+edition = "2021"
+description = "A fast math and noise library with vectors, matrices, easing, and more."
+license = "MIT"
+repository = "https://github.com/jupper-spec/chromatica-rust-crate"
+readme = "README.md"
+keywords = ["math", "noise", "vectors", "matrices", "easing", "fast", "library"]
+categories = ["algorithms", "science", "simulation"]
+
+[dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
